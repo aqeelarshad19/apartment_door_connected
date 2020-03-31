@@ -1,13 +1,15 @@
-# Open your apartment door lock with your smart phone 
+# Making your appartment lock smart 
 
 > During the times of Covid-19, its time to make a contact-less door opener
+> 
 <table>
   <tr>
     <td>
-      <img src="Images/Keys_On_White_Background_2.png" | width="300>
+      <img src="Images/Keys_On_White_Background_2.png">
     </td>
   </tr>
 </table>
+
 <!---
 > Because GitHub's `README` styling is actually really nice
 -->
@@ -47,7 +49,7 @@ Below are the requirements for the hack
 Below is the hardware used
 - ESP8266 with `ESP8266 core for Arduino`. [Development Kit](https://en.wikipedia.org/wiki/NodeMCU)
 - Relay module 3V. [Grove Relay](http://wiki.seeedstudio.com/Grove-Relay/)
-- Voltage regulator, in case of supply voltage higher then 9VDC. [LM2596 DC-DC regulator(https://www.seeedstudio.com/Adjustable-DC-DC-Power-Converter-1-25V-35V-3-p-1534.html)]
+- Voltage regulator, in case of supply voltage higher then 9VDC. [LM2596 DC-DC regulator](https://www.seeedstudio.com/Adjustable-DC-DC-Power-Converter-1-25V-35V-3-p-1534.html)
 - Opto-coupler (To get ring input)
 - 330 ohm resistor
 - NPN Transistor, if not using the relay approach [1]
@@ -63,10 +65,11 @@ Below is the hardware used
 <table>
   <tr>
     <td>
-      <img src="Images/building-48626_1280.png" | width="300">
+      <img src="Images/SmartApartment.png" | width="300">
     </td>
   </tr>
 </table>
+
 ### Solution- Wifi
 The Wifi based solution, is the first solution. It uses ESP8266 board to connect directly to the Internet. For cloud connectivity, I have used Blynk.io. Blynk provides the cloud solution for IoT devices. It has the integrated App to control the GPIO of the ESP8266. 
 
@@ -74,22 +77,27 @@ The Wifi based solution, is the first solution. It uses ESP8266 board to connect
 <table>
   <tr>
     <td>
-      <img src="Images/Circuit_Diagram.png"| width="300">
+      <img src="Images/Circuit_Diagram.png"| width="500">
     </td>
   </tr>
 </table>
+
 <table>
   <tr>
     <td>
-      <img src="Images/circuit_complete_1.jpg"| width="300">
+      <img src="Images/circuit_complete_1.jpg"| width="500">
     </td>
   </tr>
 </table>
+
 ### Blynk.io IoT Cloud
+One need to install the andriod app from [blynk.io](https://blynk.io/en/getting-started). Inside the app, it provides some free credits to add different features inside the app. I added a a button and a virtual blinking led. After creating the app, it sends the Auth-token needed inside the firmware. The firmware/sketch can be generated from the link below: 
+- [Example code generator](https://examples.blynk.cc/) 
+
 <table>
   <tr>
     <td>
-      <img src="Images/blynk_app_screen.jpg"| width="300">
+      <img src="Images/blynk_app_screen.jpg"| width="250">
     </td>
   </tr>
 </table>
@@ -98,7 +106,7 @@ The Wifi based solution, is the first solution. It uses ESP8266 board to connect
 Once the ESP-8266 is installed inside the intercom. It should be possible to upload the firmware over the air. Luckily, it has been already implemented. Follow this link below to add this feature. 
  [ESP8266 Over The Air (OTA) Programming In Arduino IDE](https://lastminuteengineers.com/esp8266-ota-updates-arduino-ide/)
 
-#Source Code
+### Source Code
 The source code is located inside the `esp8266_src/sketch`.
 Edit the source before uploading to the board.
 ```
@@ -190,12 +198,12 @@ With the powerful Wifi ESP module, it is time to move to a greener and more ener
 - https://images-na.ssl-images-amazon.com/images/I/61kBdGlWCzL._SX679_.jpg 
 - This `README` [template]()
 ## The Next Step
-
+### Make a BLE version and use no relay
 <!---
 ## Patreon 
 -->
 
-## Buy me a toilet roll/hand sanitizers or Mask, if we are out of corona times
+### Buy me a toilet roll/hand sanitizers or Mask, if we are out of corona times
 [![](https://img.shields.io/badge/Donation-@Paypal-blue.svg?style=flat&logo=paypal)](https://www.paypal.me/aqeelarshad19)
 
 <!---
