@@ -4,7 +4,7 @@
 <table>
   <tr>
     <td>
-      <img src="Images/Keys_On_White_Background_2.jpg">
+      <img src="Images/Keys_On_White_Background_2.png" | width="300>
     </td>
   </tr>
 </table>
@@ -29,7 +29,7 @@ This hack/project assumes that you have the following or similarly installed int
 <table>
   <tr>
     <td>
-      <img src="Images/intercom.jpg">
+      <img src="Images/intercom.jpg" | width="300">
     </td>
   </tr>
 </table>
@@ -63,7 +63,7 @@ Below is the hardware used
 <table>
   <tr>
     <td>
-      <img src="Images/building-48626_1280.png">
+      <img src="Images/building-48626_1280.png" | width="300">
     </td>
   </tr>
 </table>
@@ -74,14 +74,14 @@ The Wifi based solution, is the first solution. It uses ESP8266 board to connect
 <table>
   <tr>
     <td>
-      <img src="Images/Circuit_Diagram.jpg">
+      <img src="Images/Circuit_Diagram.png"| width="300">
     </td>
   </tr>
 </table>
 <table>
   <tr>
     <td>
-      <img src="Images/circuit_complete_1.jpg">
+      <img src="Images/circuit_complete_1.jpg"| width="300">
     </td>
   </tr>
 </table>
@@ -89,10 +89,11 @@ The Wifi based solution, is the first solution. It uses ESP8266 board to connect
 <table>
   <tr>
     <td>
-      <img src="Images/blynk_app_screen.jpg">
+      <img src="Images/blynk_app_screen.jpg"| width="300">
     </td>
   </tr>
 </table>
+
 ### OTA firmware updates 
 Once the ESP-8266 is installed inside the intercom. It should be possible to upload the firmware over the air. Luckily, it has been already implemented. Follow this link below to add this feature. 
  [ESP8266 Over The Air (OTA) Programming In Arduino IDE](https://lastminuteengineers.com/esp8266-ota-updates-arduino-ide/)
@@ -194,7 +195,7 @@ With the powerful Wifi ESP module, it is time to move to a greener and more ener
 ## Patreon 
 -->
 
-## Buy me a toilet roll/hand sanitizers or Coffee, if we are out of corona times
+## Buy me a toilet roll/hand sanitizers or Mask, if we are out of corona times
 [![](https://img.shields.io/badge/Donation-@Paypal-blue.svg?style=flat&logo=paypal)](https://www.paypal.me/aqeelarshad19)
 
 <!---
