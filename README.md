@@ -88,6 +88,11 @@ The Wifi based solution, is the first solution. It uses ESP8266 board to connect
       <img src="Images/circuit_complete_1.jpg"| width="500">
     </td>
   </tr>
+    <tr>
+    <td>
+      <img src="Images/Installed_with_usb.jpg"| width="500">
+    </td>
+  </tr>
 </table>
 
 ### Blynk.io IoT Cloud
@@ -189,21 +194,21 @@ With the powerful Wifi ESP module, it is time to move to a greener and more ener
 - [German Thread about the siedle intercom lock system](https://forum.iobroker.net/topic/7660/siedle-klingel-t%C3%BCr%C3%B6ffner-mit-esp8266-und-mqtt/39) [1]
 - https://forum.iobroker.net/assets/uploads/files/1574673353705-siedle-spannungen-anmerkung-2019-11-18-100717.png 
 - [On-line photo editor](https://pixlr.com/)
-- [Draw.io ]https://app.diagrams.net/ 
+- [Draw.io](https://app.diagrams.net/) 
 - https://pixabay.com/vectors/building-tall-housing-houses-48626/
 - https://github.com/audef1/magicdooropener 
 - http://androidcontrol.blogspot.com/2015/05/arduino-wifi-control-with-esp8266-module.html
 - https://forum.fritzing.org/t/lm2596-step-down-module/6380 
 - https://arduinomodules.info/ky-019-5v-relay-module/
 - https://images-na.ssl-images-amazon.com/images/I/61kBdGlWCzL._SX679_.jpg 
-- This `README` [template]()
+- This `README` [template](https://github.com/KrauseFx/markdown-to-html-github-style) helped me alot to quickly write this document
 ## The Next Step
 ### Make a BLE version and use no relay
 <!---
 ## Patreon 
 -->
 
-### Buy me a toilet roll/hand sanitizers or Mask, if we are out of corona times
+##### Buy me a toilet roll/hand sanitizers or Mask, if we are out of corona times
 [![](https://img.shields.io/badge/Donation-@Paypal-blue.svg?style=flat&logo=paypal)](https://www.paypal.me/aqeelarshad19)
 
 <!---
