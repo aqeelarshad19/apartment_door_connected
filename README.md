@@ -1,4 +1,4 @@
-# Making your appartment lock smart 
+# Making your apartment lock smart 
 
 > During the times of Covid-19, its time to make a contact-less door opener
 > 
@@ -65,7 +65,7 @@ Below is the hardware used
 <table>
   <tr>
     <td>
-      <img src="Images/SmartApartment.png" | width="300">
+      <img src="Images/SmartApartment.png" | width="450">
     </td>
   </tr>
 </table>
@@ -181,6 +181,7 @@ After looking at the multiple Internet forums to look for the wiring diagram for
 
 The voltage between the Pin-1 and Pin-7 range from 12-24 Volts DC but they have very limited current available ~ 15mA. This is not enough to driver the ESP module along with the phone. As soon the ESP is powered, the phone stops working. One solution is to use a USB power bank to power the device and charge it every now and then. 
 ### Security
+Note: This solutions is not built for a secure application, although its possible to add security features. Such as [signed firmware updates](https://arduino-esp8266.readthedocs.io/en/latest/ota_updates/readme.html).
 
 ### Solution- BLE 
 With the powerful Wifi ESP module, it is time to move to a greener and more energy friendly solution. Blue-tooth Low Energy provides low power connectivity and suits better for such a situation. It will have the following components
@@ -189,7 +190,7 @@ With the powerful Wifi ESP module, it is time to move to a greener and more ener
 - Gateway to connect the BLE device to the Internet e.g. A Raspi
 
 ## Links and References and Acknowledgments
-- Ejaad-Nama, a is newsletter. which cover different technology news. Please, [subscribe here](https://ejaadnama.substack.com/)
+- Ejaad-Nama, a is newsletter. which cover different technology news. Please, subscribe [here](https://ejaadnama.substack.com/)
 - [Adding OTA updates to the ESP-8266 modules](https://lastminuteengineers.com/esp8266-ota-updates-arduino-ide/) 
 - [German Thread about the siedle intercom lock system](https://forum.iobroker.net/topic/7660/siedle-klingel-t%C3%BCr%C3%B6ffner-mit-esp8266-und-mqtt/39) [1]
 - https://forum.iobroker.net/assets/uploads/files/1574673353705-siedle-spannungen-anmerkung-2019-11-18-100717.png 
@@ -210,7 +211,7 @@ With the powerful Wifi ESP module, it is time to move to a greener and more ener
 
 ##### Buy me a toilet roll/hand sanitizers or Mask, if we are out of corona times
 [![](https://img.shields.io/badge/Donation-@Paypal-blue.svg?style=flat&logo=paypal)](https://www.paypal.me/aqeelarshad19)
-
+[![](https://img.shields.io/badge/Social-@LinkenIn-blue.svg?style=flat&logo=LinkedIn)](https://www.linkedin.com/in/aqeelarshad19/)
 <!---
 <h3 style="text-align: center; font-size: 35px; border: none">
   <a href="https://github.com/KrauseFx/markdown-to-html-github-style" target="_blank" style="text-decoration: none;">
