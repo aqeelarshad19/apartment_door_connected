@@ -212,6 +212,8 @@ With the powerful Wifi ESP module, it is time to move to a greener and more ener
 ##### Buy me a toilet roll/hand sanitizers or Mask, if we are out of corona times
 [![](https://img.shields.io/badge/Donation-@Paypal-blue.svg?style=flat&logo=paypal)](https://www.paypal.me/aqeelarshad19)
 
+![GitHub followers](https://img.shields.io/github/followers/aqeelarshad19?label=Follow&style=social)
+
 [![](https://img.shields.io/badge/Social-@LinkedIn-blue.svg?style=flat&logo=linkedin)](https://www.linkedin.com/in/aqeelarshad19/)
 <!---
 <h3 style="text-align: center; font-size: 35px; border: none">
