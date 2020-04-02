@@ -15,11 +15,11 @@
 -->
 
 ## Background
-Ever since we moved into our new apartment, we were handed over two keys to enter the apartment building. One key to open the main entry door and then another to open the home door upstairs. One extra key to carry also added with the fear of loosing it, motivated me to connect the apartment lock to the Internet and open it without any contact. 
-You might be thinking, why make it when such solutions already exists. For example, [Nello one](https://www.nello.io/en/) provided keyless entry system. The idea was very innovative with many applications but after about 4 years they filed for [insolvency in July 2019](https://medium.com/@christophbaumeister/why-nello-failed-bd5df7c2b0fb). So with Nello gone, I wanted to make my own key-less door opener and that is not as expensive as Nello was(~100€).
+Ever since we moved into our new apartment, we were handed over two keys to enter the apartment building. One key opens the main entry door of the building and another opens the home door on one of the floors of the building. The extra key to carry also comes with the fear of loosing it. This motivated me to connect the apartment lock to the Internet and open it without any contact. 
+You might be thinking, why make it when such solutions already exists. For example, [Nello one](https://www.nello.io/en/) provided keyless entry system. The idea was very innovative with many applications but after about 4 years they filed for [insolvency in July 2019](https://medium.com/@christophbaumeister/why-nello-failed-bd5df7c2b0fb). So with Nello gone, I wanted to make my own key-less door opener and that is not as expensive as Nello was(~100€). 
 
 ## Problem
-I want to open the door to enter inside my apartment without using the to open the lock. The problem is how to replace a mechanical door lock key with a digital connected lock key. I can only hack the intercom installed inside my apartment. Along with an intercom, it has a button to open the door downstairs.
+I want to open the door to enter inside my apartment without using the key to open the lock. The problem is replacing a mechanical door lock key with a digitally connected lock key. I could hack the intercom installed inside my apartment. Along with an intercom, I could use the button to open the door downstairs.
 
 ## Pre-requirements
 This hack/project assumes that you have the following or similarly installed intercom system:
@@ -71,7 +71,7 @@ Below is the hardware used
 </table>
 
 ### Solution- Wifi
-The Wifi based solution, is the first solution. It uses ESP8266 board to connect directly to the Internet. For cloud connectivity, I have used Blynk.io. Blynk provides the cloud solution for IoT devices. It has the integrated App to control the GPIO of the ESP8266. 
+The Wifi based solution, is the first of many solutions. It uses ESP8266 board to connect directly to the Internet. For cloud connectivity, I have used Blynk.io. Blynk provides the cloud solution for IoT devices. It has the integrated App to control the GPIO of the ESP8266. 
 
 ### Circuit Diagram
 <table>
@@ -96,7 +96,7 @@ The Wifi based solution, is the first solution. It uses ESP8266 board to connect
 </table>
 
 ### Blynk.io IoT Cloud
-One need to install the andriod app from [blynk.io](https://blynk.io/en/getting-started). Inside the app, it provides some free credits to add different features inside the app. I added a a button and a virtual blinking led. After creating the app, it sends the Auth-token needed inside the firmware. The firmware/sketch can be generated from the link below: 
+One need to install the andriod app from [blynk.io](https://blynk.io/en/getting-started). Inside the app, it provides some free credits to add different features inside the app. I added a button and a virtual blinking led. After creating the app, it sends the Auth-token needed inside the firmware. The firmware/sketch can be generated from the link below: 
 - [Example code generator](https://examples.blynk.cc/) 
 
 <table>
