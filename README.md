@@ -93,6 +93,17 @@ The Wifi based solution, is the first of many solutions. It uses ESP8266 board t
       <img src="Images/Installed_with_usb.jpg"| width="500">
     </td>
   </tr>
+  </tr>
+    <tr>
+    <td>
+      <img src="Images/inside_the_Box.jpg"">
+    </td>
+  </tr>
+      <tr>
+    <td>
+        *I decided to move circuit out of the intercom*
+    </td>
+  </tr>
 </table>
 
 ### Blynk.io IoT Cloud
@@ -209,7 +220,7 @@ With the powerful Wifi ESP module, it is time to move to a greener and more ener
 ## Patreon 
 -->
 
-##### Buy me a toilet roll/hand sanitizers or Mask, if we are out of corona times
+##### Buy me a toilet roll/hand sanitizers or a Mask. Else a coffee, if we are out of corona times ;) 
 [![](https://img.shields.io/badge/Donation-@Paypal-blue.svg?style=flat&logo=paypal)](https://www.paypal.me/aqeelarshad19)
 
 ![GitHub followers](https://img.shields.io/github/followers/aqeelarshad19?label=Follow&style=social)
