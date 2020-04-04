@@ -88,20 +88,40 @@ The Wifi based solution, is the first of many solutions. It uses ESP8266 board t
       <img src="Images/circuit_complete_1.jpg"| width="500">
     </td>
   </tr>
-    <tr>
+
+  <tr>
     <td>
       <img src="Images/Installed_with_usb.jpg"| width="500">
     </td>
   </tr>
-  </tr>
-    <tr>
+
+  <tr>
     <td>
-      <img src="Images/inside_the_Box.jpg"">
+      <img src="Images/inside_the_Box.jpg""| width="500">
     </td>
   </tr>
-      <tr>
+
+  <tr>
     <td>
-        *I decided to move circuit out of the intercom*
+        I decided to move circuit out of the intercom
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img src="Images/connected_with_usb_bank.jpg""| width="500">
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img src="Images/complete_hidden.jpg""| width="500">
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        Hidden away and neat ;)
     </td>
   </tr>
 </table>
