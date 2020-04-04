@@ -109,13 +109,7 @@ The Wifi based solution, is the first of many solutions. It uses ESP8266 board t
 
   <tr>
     <td>
-        <img src="Images/connected_with_usb_bank.jpg""| width="500">
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-        <img src="Images/complete_hidden.jpg""| width="500">
+        <img src="Images/complete_hidden_2.jpg""| width="500">
     </td>
   </tr>
 
